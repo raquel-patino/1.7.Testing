@@ -1,0 +1,17 @@
+{
+"autoload": {
+    "psr-4": {
+        "Ejercicio1\\": "Ex_1_Tema7/src/",
+        "Ejercicio2\\": "Ex_2_Tema7/src/"
+    }
+},
+"autoload-dev": {
+    "psr-4": {
+        "Ejercicio1\\Tests\\": "Ex_1_Tema7/tests/",
+        "Ejercicio2\\Tests\\": "Ex_2_Tema7/tests/"
+    }
+},
+"require-dev": {
+    "phpunit/phpunit": "^11.5"
+}
+}
